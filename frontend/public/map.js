@@ -2,11 +2,7 @@
 
 var mymap;
 var locations = [
-    ["LOCATION_1",44.854031, -93.460167],
-    ["LOCATION_2",60, -0.15],
-    ["LOCATION_3",10.7202,122.5621],
-    ["LOCATION_4",11.3889,122.6277],
-    ["LOCATION_5",10.5929,122.6325]
+    ["LOCATION_1",44.854031, -93.460167]
     ];
 
 
@@ -36,7 +32,7 @@ function locateUser(){
 }
 
 function addMarker(){
-    window.locations.push(["NewYork",40.712776,-74.005974]);
+    window.locations.push(["NewYork",44.846380,-93.442820]);
     updateMarker();
 
 }
