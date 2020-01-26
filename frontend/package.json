@@ -20,6 +20,7 @@
   "homepage": "https://github.com/nikita-skobov/hackathon-2020#readme",
   "dependencies": {
     "bootstrap": "^4.4.1",
+    "radar-sdk-js": "^1.1.0",
     "react": "^16.12.0",
     "react-app-polyfill": "^1.0.5",
     "react-dom": "^16.12.0",
