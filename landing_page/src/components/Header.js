@@ -60,7 +60,7 @@ const Header = () => {
                 About
               </Link>
               <Link
-                href="#"
+                href="map.html"
                 className="nav-link"
                 activeClass="active"
                 to="contact"
@@ -69,7 +69,7 @@ const Header = () => {
                 offset={0}
                 duration={400}
               >
-                Contact
+                Go To Map
               </Link>
             </Nav>
           </Navbar.Collapse>

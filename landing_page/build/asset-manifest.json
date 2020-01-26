@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e1623ada.chunk.css",
+    "main.js": "/static/js/main.a0710444.chunk.js",
+    "main.js.map": "/static/js/main.a0710444.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+    "static/css/2.ea8a46ca.chunk.css": "/static/css/2.ea8a46ca.chunk.css",
+    "static/js/2.ba0c2105.chunk.js": "/static/js/2.ba0c2105.chunk.js",
+    "static/js/2.ba0c2105.chunk.js.map": "/static/js/2.ba0c2105.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.b4ec41bef6952918699e6bbedce03f0f.js": "/precache-manifest.b4ec41bef6952918699e6bbedce03f0f.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.ea8a46ca.chunk.css.map": "/static/css/2.ea8a46ca.chunk.css.map",
+    "static/css/main.e1623ada.chunk.css.map": "/static/css/main.e1623ada.chunk.css.map",
+    "static/media/bg-home.jpg": "/static/media/bg-home.74c6b751.jpg",
+    "static/media/iphone.png": "/static/media/iphone.c244175a.png"
+  }
+}
