@@ -16,6 +16,12 @@ function update() {
         id: 'mapbox/streets-v11'
     }).addTo(window.mymap);
 
+    var address = eden_prairie_mn
+    $.get(location.protocol + '//nominatim.openstreetmap.org/search?format=json&q='+address, function(data){
+       console.log(data);
+    });
+
+
 
 }
 

@@ -20,8 +20,25 @@
 
 
 
-<div id="mapid" style="width: 600px; height: 400px;"></div>
-<script src="map.js"></script>
+<div id="mapid" style="width: 600px; height: 400px;"></div> v
+<script>
+	
+   	L.map('map', {
+    	center: [51.505, -0.09],
+    	zoom: 13
+    });
+	
+	
+	const provider = new OpenStreetMapProvider();
+	const form = document.querySelector('form');
+	const input = form.querySelector('input[type="text"]');
+
+	form.addEventListener('submit', async (event) => {
+	event.preventDefault();
+	const results = await provider.search({ query: input.value });
+	console.log(results); // » [{}, {}, {}, ...]
+	});
+</script>
 
 
 
